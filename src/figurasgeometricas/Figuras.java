@@ -9,21 +9,20 @@ package figurasgeometricas;
  * @author Usuario
  */
 public abstract class Figuras {
-    protected double area;
-    protected double perimetro;
+    
 
     public double getArea() {
-        return area;
+        return calcularArea();
     }
 
     public double getPerimetro() {
-        return perimetro;
+        return calcularPerimetro();
     }
 
     public Figuras() {
     }
     
-    public abstract double calcularPerimetro();
-    public abstract double calcularArea();
+    protected abstract double calcularPerimetro();
+    protected abstract double calcularArea();
 }
 
