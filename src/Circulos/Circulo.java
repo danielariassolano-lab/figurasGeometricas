@@ -30,7 +30,7 @@ public class Circulo extends Figuras {
         this.radio = radio;
     }
     
-    public double calcularDiametro(){
+    private double calcularDiametro(){
         return radio * 2;
     }
 
