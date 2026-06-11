@@ -48,6 +48,10 @@ public class Circulo extends Figuras {
       return  Math.pow(radio,2)*Circulo.PI;
 
     }
-    
+    @Override
+    public String toString() {
+        return "Circulo: " + "\nradio:"+this.radio+"\nPerimetro:"+this.getPerimetro()+
+                "\nArea:"+this.getArea()+"\nDiametro"+getDiametro();
+    }    
    
 }
