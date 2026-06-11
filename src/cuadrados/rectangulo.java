@@ -43,5 +43,13 @@ public class rectangulo extends Figuras{
     protected double calcularDiagonal(){
         return Math.sqrt(Math.pow(base,2)+Math.pow(altura,2));
     }
+
+    @Override
+    public String toString() {
+        return "rectangulo{" + "base: " + base + "\naltura: " + altura +
+                "\nDiagonal: "+ getDiagonal()+ 
+                "\n";
+    }
+    
 }
 
